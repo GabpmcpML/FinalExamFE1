@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Be Vietnam', 'sans-serif';
+    font-family: 'Be Vietnam', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+    display: inline;
+}
+
+a:hover {
+    color: rgba(36, 46, 82, 0.6);
+}
+
+.bullet {
+    display: flex;
+    align-items: baseline;
+}
+
+.bullet-content {
+    flex-direction: column;
+    padding-left: 1em;
+    padding-bottom: 1.5em;
+}
+
+.bullet-paragraph {
+    color: rgba(179, 178, 183, 1);
+    letter-spacing: -0.01em;
+    font-weight: 500;
+}
+
+.subtitle {
+    padding-bottom: 1rem;
+}
+
+header .head {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2rem;
+    margin-top: 2em;
+}
+
+main .main-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 5rem;
+}
+
+main .main-1-item .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 2em;
+    letter-spacing: -0.035em;
+    color: #232C50;
+    line-height: 1.2em;
+}
+
+main .main-1-item .title-2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 2em;
+    letter-spacing: -0.035em;
+    color: #232851;
+    line-height: 1.2em;
+}
+
+.purple {
+    background-color: rgba(139, 72, 191, 1);
+    padding: 0.7rem;
+    border-radius: 4rem;
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+}
