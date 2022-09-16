@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font: 'Be Vietnam', 'sans-serif';
     font-family: 'Be Vietnam', sans-serif;
+    
 }
 
 a {
@@ -17,6 +18,54 @@ a {
 
 a:hover {
     color: rgba(36, 46, 82, 0.6);
+}
+
+.head {
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2rem;
+    margin-top: 2em;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    padding: 5rem;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.5em;
+    line-height: 2em;
+    letter-spacing: -0.035em;
+    color: #232C50;
+    line-height: 1.2em;
+}
+
+.title-2 {
+    font-size: 2.2em;
+    color: #232851;
+    padding: 2em;
+    margin: 1em;
+}
+
+.purple {
+    background-color: rgba(139, 72, 191, 1);
+    padding: 0.7rem;
+    border-radius: 4rem;
+    gap: 10px;
+    color: white;
+    text-align: center;
+}
+
+.paragraph {
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
 }
 
 .bullet {
@@ -40,59 +89,29 @@ a:hover {
     padding-bottom: 1rem;
 }
 
-header .head {
-    display: flex;
-    justify-content: space-around;
-    padding: 1.2rem;
-    margin-top: 2em;
-}
-
-main .main-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main .main-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.item {
-    padding: 5rem;
-}
-
-main .main-1-item .title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.5em;
-    line-height: 2em;
-    letter-spacing: -0.035em;
-    color: #232C50;
-    line-height: 1.2em;
-}
-
-main .main-1-item .title-2 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 2.2em;
-    line-height: 2em;
-    letter-spacing: -0.035em;
-    color: #232851;
-    line-height: 1.2em;
-}
-
-.purple {
-    background-color: rgba(139, 72, 191, 1);
-    padding: 0.7rem;
-    border-radius: 4rem;
-    gap: 10px;
-    color: white;
+.testimony {
+    background-color: rgba(250, 250, 250, 1);
+    color: rgba(185, 185, 193, 1);
     text-align: center;
+    padding: 1.7em;
+    position: relative;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.paragraph {
-    margin-top: 1.5em;
-    margin-bottom: 2.5em;
+.testimony h3 {
+    color: rgba(36, 46, 83, 1);
+}
+
+.testimonies {
+    display: flex;
+    justify-content: center;
+}
+
+.testimony img {
+    position: absolute;
+    top: -75px;
 }
